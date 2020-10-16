@@ -1,4 +1,3 @@
-
 =====================
 object_cache
 =====================
@@ -12,17 +11,21 @@ install
 ========
 
 .. code-block:: shell
+
     pip install object-cache
 
 clear cache
 ============
+
 .. code-block:: shell
+
     rm -fr .object_cache
 
 code example
 ============
 
 .. code-block:: python
+
     import time
 
     from object_cache import object_cache
