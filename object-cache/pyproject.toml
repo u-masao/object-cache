@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "object-cache"
-version = "0.1.4"
-description = ""
+version = "0.1.5"
+description = "This module caches the result of function execution in local storage."
 authors = ["u-masao <4973920+u-masao@users.noreply.github.com>"]
+readme = "README.rst"
 
 [tool.poetry.dependencies]
 python = "^3.8"
