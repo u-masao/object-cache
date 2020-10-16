@@ -14,13 +14,6 @@ install
 
     pip install object-cache
 
-clear cache
-============
-
-.. code-block:: shell
-
-    rm -fr .object_cache
-
 code example
 ============
 
@@ -44,4 +37,11 @@ code example
         start = time.time()
         factorial(100000)
         print("elapsed time", time.time() - start)
+
+clear cache
+============
+
+.. code-block:: shell
+
+    rm -fr .object_cache
 
